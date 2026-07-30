@@ -1,0 +1,108 @@
+.web-name{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 40px; 
+    font-style: italic;
+}
+
+/* Styling for Login Form */
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-group input {
+    border-radius: 5px;
+}
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    display: none;
+}
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.text-center {
+    text-align: center;
+}
+footer {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: flex-start; /* Align items at the top */
+    padding: 50px 20px; /* General padding */
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+  }
+  
+  footer .info {
+    flex: 1 1 auto; /* Allow sections to shrink or grow equally */
+    max-width: 25%; /* Ensure sections don't grow too large */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+  }
+  
+  footer .info h3,
+  footer .info h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  footer .info p,
+  footer .info a {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+  }
+  
+  footer .info a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #B38E6A;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for Smaller Screens */
+  @media (max-width: 768px) {
+    footer .info {
+      max-width: 30%; /* Slightly larger sections for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    footer {
+      justify-content: flex-start; /* Align items to the left for scrolling */
+    }
+  
+    footer .info {
+      max-width: none;
+      flex: 0 0 auto; 
+    }
+  }
+  

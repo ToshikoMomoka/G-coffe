@@ -1,0 +1,108 @@
+input[type="file"] {
+  display: none;
+}
+.web-name{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-size: 40px; 
+  font-style: italic;
+}
+
+.btn-post {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #6b7270;
+  border: none;
+  cursor: pointer;
+}
+.widget-post {
+  width: 600px;
+  min-height: 100px;
+  border: 1px solid #a19a9a;
+  border-radius: 6px;
+  background-color: #e2e2e2;
+  margin: auto;
+  overflow: hidden;
+}
+.widget-post__textarea, .widget-post__title-input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  resize: none; 
+}
+.widget-post__textarea:focus, .widget-post__title-input:focus {
+  outline: none;
+}
+.post--actions {
+  padding: 8px;
+  background-color: #f5f5f5;
+  color: #a2a6a7;
+}
+.btn-post {
+  background-color: #eaeaea;
+  color: #007582;
+}
+.post-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+}
+.post-box {
+  width: 22%;
+  margin-bottom: 15px;
+}
+.post-box button {
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  object-fit: contain;
+  margin-top: 10px;
+}
+@media (max-width: 768px) {
+  .post-img {
+    max-width: 100%; /* Allow it to scale for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .post-img {
+    width: 100%; /* Ensure it takes the full width of the container */
+  }
+}
+/* On-screen alert (3.m pls let me sleep pls work) */
+/* .custom-alert {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  max-width: 400px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.custom-alert .btn-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.alert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+} */
+ /* unused */

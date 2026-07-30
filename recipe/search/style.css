@@ -1,0 +1,33 @@
+
+h1 {
+    color: #ffffff;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.card-text {
+    color: #ffffff;
+}
+
+button {
+    width: 100%;
+}
+
+#results-container {
+    margin-top: 20px;
+}
+body{
+    background-image: url(../../img/nathan-dumlao-r-KfktlyBL0-unsplash.jpg);
+    width: 100%;
+    background-size: cover;
+}
+.card-text {
+    color: rgb(0, 0, 0) !important;
+}

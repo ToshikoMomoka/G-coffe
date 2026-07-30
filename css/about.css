@@ -1,0 +1,139 @@
+        .web-name {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 40px;
+            font-style: italic;
+        }
+
+        .web-name:hover {
+            color: burlywood;
+        }
+
+        .navbar a:hover {
+            color: #B38E6A;
+        }
+
+        .navBarLock {
+            position: fixed;
+            z-index: 1000;
+            width: 100%;
+        }
+
+        .about-section {
+            background-color: #f8f9fa;
+            padding: 90px 15px;
+        }
+
+        .about-image {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .rating-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .stars {
+            color: #ffc107;
+            font-size: 24px;
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 100px 200px;
+            box-sizing: border-box;
+            width: 100%;
+            background-color: #f8f9fa;
+        }
+
+        footer .info {
+            width: 25%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        footer .info a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .copyright {
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            background-color: #B38E6A;
+            color: white;
+        }
+
+        #review {
+            display: flex;
+        }
+
+        .review-content {
+            padding: 140px 300px 140px 100px;
+            box-sizing: border-box;
+            background-color: #E5DCD2;
+        }
+
+        .review-content h1 {
+            padding-left: 150px;
+            margin-bottom: 50px;
+            font-size: 60px;
+            box-sizing: border-box;
+            color: #534931;
+        }
+
+        .review-content p {
+            font-size: 20px;
+        }
+
+        #recent-post, #contact {
+            width: 100%;
+            padding: 100px 200px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .recent-box {
+            width: 100%;
+            display: flex;
+        }
+
+        .recent-box1 {
+            width: 35%;
+        }
+
+        .recent-box2 {
+            width: 50%;
+            margin-left: -50px;
+            padding: 20px 100px 20px 0;
+        }
+
+        .recent-box2 img {
+            margin-right: 30px;
+        }
+
+        .recent-info {
+            padding-top: 60px;
+        }
+
+        .recent-detail {
+            display: flex;
+            padding: 35px 0;
+        }
+
+        #contact button {
+            background-color: #B38E6A;
+            color: white;
+            border: none;
+            padding: 15px 20px;
+        }
+
+        #contact p {
+            padding: 20px 24%;
+            box-sizing: border-box;
+            font-size: 20px;
+        }

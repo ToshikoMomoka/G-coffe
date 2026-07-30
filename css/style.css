@@ -1,0 +1,246 @@
+.web-name{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 40px; 
+    font-style: italic;
+}
+
+.web-name :hover{
+    color: burlywood;
+}
+
+.navbar a:hover{
+    color: #B38E6A;
+}
+#header-img{
+    padding: 200px 100px;
+    box-sizing: border-box;
+}
+
+#header-img h1{
+    font-size: 50px;
+    width: 60%;
+}
+
+#header-img p{
+    font-size: 20px;
+}
+
+#header-img button{
+    background-color: #B38E6A;
+    color: white;
+    border: none;
+    padding: 15px 20px;;
+}
+
+#header-img button:hover{
+    background-color: darkgoldenrod;
+}
+
+#gift-menu{
+    display: flex;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+#gift-menu p{
+    padding:100px 50px;
+    font-size: 25px;
+}
+
+#special-menu{
+    text-align: center;
+    width: 100%;
+}
+#special-menu h1{
+    font-size: 50px;
+}
+
+
+.special-box{
+    display: flex;
+    justify-content: center;
+}
+
+#special-menu .special-box>p{
+    padding: 10px 15px;
+}
+
+.reserve button{
+    background-color: #B38E6A;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+}
+.reserve{
+    padding: 100px;
+    box-sizing: border-box;
+}
+#special-menu p{
+    padding:20px 24%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.special-box p a{
+    color: black;
+    text-decoration: none;
+}
+.special-box p a:hover{
+    color: #B38E6A;
+}
+
+#review{
+    display: flex;
+}
+
+.review-content{
+    padding: 140px 300px 140px 100px;
+    box-sizing: border-box;
+    background-color: #E5DCD2;
+}
+
+.review-content h1{
+    padding-left: 150px;
+    margin-bottom: 50px;
+    font-size: 60px;
+    box-sizing: border-box;
+    color: #534931;
+}
+
+.review-content p{
+    font-size: 20px;
+}
+
+#recent-post{
+    width: 100%;
+    padding: 100px 200px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.recent-box{
+    width: 100%;
+    display: flex;
+}
+
+.recent-box1{
+    width: 35%;
+}
+.recent-box2{
+    width: 50%;
+    margin-left: -50px;
+    padding: 20px 100px 20px 0;
+}
+
+.recent-box2 img{
+    margin-right: 30px;
+}
+
+.recent-info{
+    padding-top: 60px;
+}
+
+.recent-detail{
+    display: flex;
+    padding: 35px 0;
+}
+
+#contact button{
+    background-color: #B38E6A;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+}
+
+#contact p{
+    padding:20px 24%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping */
+    justify-content: space-between; /* Distribute space evenly */
+    align-items: flex-start; /* Align items at the top */
+    padding: 50px 20px; /* General padding */
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling if content overflows */
+  }
+  
+  footer .info {
+    flex: 1 1 auto; /* Allow sections to shrink or grow equally */
+    max-width: 25%; /* Ensure sections don't grow too large */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left; /* Align text to the left */
+  }
+  
+  footer .info h3,
+  footer .info h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  footer .info p,
+  footer .info a {
+    font-size: 0.95em;
+    margin-bottom: 8px;
+  }
+  
+  footer .info a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #B38E6A;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for Smaller Screens */
+  @media (max-width: 768px) {
+    footer .info {
+      max-width: 30%; /* Slightly larger sections for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    footer {
+      justify-content: flex-start; /* Align items to the left for scrolling */
+    }
+  
+    footer .info {
+      max-width: none; /* Allow flexible widths */
+      flex: 0 0 auto; /* Prevent shrinking */
+    }
+  }
+  
+.navBarLock{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+/* autocomplete search */
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1050;
+    display: none;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: #f1f1f1;
+}
